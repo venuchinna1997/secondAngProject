@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './address-card/user.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'second_angular_project';
+  user: User;
+
+  constructor(){
+    this.user = new User();
+    this.user.name = "ABCD";
+    this.user.designation = "ZXCVBNM";
+    this.user.address = "QWERTY";
+    this.user.phone = ["25265365365"]
+  }
+  
 }
