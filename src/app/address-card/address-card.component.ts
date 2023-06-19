@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class AddressCardComponent implements OnInit{
 
   user : any;
-  @Input("name") userTitle : any
+  @Input("name") userTitle : string = ""; 
 
   constructor() {
   }
