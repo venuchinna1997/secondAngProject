@@ -11,10 +11,10 @@ export class AppComponent {
 
   constructor(){
     this.user = new User();
-    this.user.name = "ABCD";
-    this.user.designation = "ZXCVBNM";
-    this.user.address = "QWERTY";
-    this.user.phone = ["25265365365"]
+    this.user.name = "Venu";
+    this.user.designation = "Java Developer";
+    this.user.address = "The Vineyards Apartments";
+    this.user.phone = ["9377895257"]
   }
   
 }
