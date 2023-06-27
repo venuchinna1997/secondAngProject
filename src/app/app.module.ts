@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AddressCardComponent } from './address-card/address-card.component';
 import { FormsModule } from '@angular/forms';
 import { ViewModuleModule } from './view-module/view-module.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ViewModuleModule } from './view-module/view-module.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ViewModuleModule
+    ViewModuleModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
